@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Robert Rodriguez</title>
+        <link rel="stylesheet" type="text/css" href="../CSS Files/Portfolio.css">
+    </head>
+
+    <body class="background">
+
+        <!--Navbar-->
+        <div class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#github">GitHub</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="home">
+            <video autoplay muted loop id="typing_video">
+                <source src="../Videos/computer.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video Text-->
+        <div class="video_text">
+            <h1 class="white-text">Robert Rodriguez's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Things are as they are. Looking out into the universe at night,
+                        <br>we make no comparisons between right and wrong stars,
+                        <br>nor between well and badly arranged constellations.
+                    </q>
+                    <br>-Alan Watts
+                    <br>
+                    <br>My name is Robert Rodriguez. Welcome to my portfolio website.
+                    On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--About Section-->
+        <div class="row" id="about">
+            <!--Left column-->
+            <div class="column_2">
+                <img src="../Images/thumbnail_5.jpg" alt="Forest">
+            </div>
+            <!--Right Column-->
+            <div class="column_1">
+                <h1>About</h1>
+                <p>
+                    I am a student at <a href="https://www.learncodinganywhere.com/" target="_blank">
+                    The Tech Academy</a>, while working part time as a Mechanical Assembler.
+                    I enjoy spending my time exploring, gaming, or working on cars.
+                    <br>
+                    <br>I am a enrolled in the Software Developer Boot Camp. After graduating,
+                    I will be trained and experienced in the following web and programming
+                    languages: HTML, CSS, JavaScript, SQL, C#, and more.
+                    <br>
+                    <br>I will soon be a full-stack developer and would love to work with you
+                    on your project. <a href="#contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub Section-->
+        <div class="row" id="github">
+            <!--Left Column-->
+            <div class="column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Borregito22" target="_blank">
+                        Robert's GitHub</a>
+                    </p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="column_2">
+                <a href="https://github.com/Borregito22" target="_blank"><img src="../Images/thumbnail_3.jpg" alt="GitHub"></a>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="row" id="contact">
+            <!--Contact Image, Left Column-->
+            <div class="column_2 column_tall">
+                <img src="../Images/thumbnail_4.jpg" alt="Glowing Email Icon">
+            </div>
+            <!--Contact Form, Right Column-->
+            <div class="column_1 column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/xeqnqebo" method="post">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <footer>
+            <p>
+                <p class="center">&copy; Robert Rodriguez | 2021</p>
+                <br>
+            </p>
+        </footer>
+
+    </body>
+</html>
